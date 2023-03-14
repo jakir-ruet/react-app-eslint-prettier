@@ -9,15 +9,49 @@ Visit Us
 
 ## Getting Started React, React-TypeScript Eslint-Prettier Configuration
 
-Visit Us [Sun IT Limited](http://www.sunitlimited.com).
+yarn create react-app react-app-eslint --template typescript
 
-## Create the project ReactJS App or React-TypeScrpt App
+Checking the dependency then install
 
-### `npx create-react-app my-app --template typescript`
-
+npm ls eslint
+yarn add -D eslint
 Or
+npm i eslint --save-dev
 
-### `yarn create react-app react-app-eslint --template typescript`
+npm ls eslint-plugin-typescript
+yarn add -D eslint-plugin-typescript
+Or
+npm i eslint-plugin-typescript --save-dev
+
+Create .eslintrc.json and paste
+"extends": ["react-app", "react-app/jest", "prettier"],
+"rules": {
+"semi": "warn"
+}
+
+npm ls eslint-plugin-react-hooks
+yarn add -D eslint-plugin-react-hooks
+
+npm ls prettier
+yarn add -D prettier
+
+npm ls eslint-config-prettier
+yarn add -D eslint-config-prettier
+
+Create .prettierrc.json and paste
+{
+"singleQuote": true
+}
+
+Create .prettierignore and paste
+/build
+/node_modules
+/package-lock.json
+/yarn-error.log
+/yarn.lock
+
+yarn prettier --write .
+npx prettier --check .
 
 [youtube-shield]: https://img.shields.io/badge/-Youtube-black.svg?style=flat-square&logo=youtube&color=blue&logoColor=red
 [youtube-url]: https://www.youtube.com/watch?v=9i424dXt2Pk
