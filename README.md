@@ -18,6 +18,5 @@ Or
 [youtube-url]: https://www.youtube.com/watch?v=9i424dXt2Pk
 [facebook-shield]: https://img.shields.io/badge/-Facebook-black.svg?style=flat-square&logo=facebook&color=pink&logoColor=blue
 [facebook-url]: https://www.facebook.com/SunItLimited/
-
-https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=red
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=red
 [linkedin-url]: https://www.linkedin.com/company/gosunitlimited
