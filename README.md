@@ -1,12 +1,14 @@
-# Getting Started with Create React App
+# Getting Started React, React-TypeScript Eslint-Prettier Configuration
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Visit Us [Sun IT Limited](http://www.sunitlimited.com).
 
-## Available Scripts
+## Create the project ReactJS App or React-TypeScrpt App
 
-In the project directory, you can run:
+### `npx create-react-app my-app --template typescript`
 
-### `yarn start`
+Or
+
+### `yarn create react-app react-app-eslint --template typescript`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
