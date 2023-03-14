@@ -1,10 +1,9 @@
 [![Youtube][youtube-shield]][youtube-url]
 [![Facebook-Page][facebook-shield]][facebook-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+Visit Us [Sun IT Limited](http://www.sunitlimited.com).
 
 ## Getting Started React, React-TypeScript Eslint-Prettier Configuration
-
-Visit Us [Sun IT Limited](http://www.sunitlimited.com).
 
 ## Create the project ReactJS App or React-TypeScrpt App
 
