@@ -1,7 +1,7 @@
 [![Youtube][youtube-shield]][youtube-url]
 [![Facebook-Page][facebook-shield]][facebook-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-Visit Us [Sun IT Limited](http://www.sunitlimited.com).
+[![Sun IT Limited][SunITLimited-shield]][SunITLimited-url]
 
 ## Getting Started React, React-TypeScript Eslint-Prettier Configuration
 
@@ -19,3 +19,5 @@ Or
 [facebook-url]: https://www.facebook.com/SunItLimited/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=red
 [linkedin-url]: https://www.linkedin.com/company/gosunitlimited
+[SunITLimited-shield]: http://www.sunitlimited.com
+[SunITLimited-url]: http://www.sunitlimited.com
