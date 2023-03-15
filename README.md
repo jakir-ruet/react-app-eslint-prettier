@@ -8,9 +8,6 @@
 
 ### React, React-TypeScript Through Eslint-Prettier Configuration
 
-<h4>Create ReactJS/ReactJS-TypeScript App</h4>
--[Create App](#Create-App)
-
 <h4>Only Five Packages Needed</h4>
 -[Eslint](#ddddd)
 -[Eslint Plugin React/TypeScript](#ddddd)
@@ -24,19 +21,43 @@
 yarn create react-app react-app-eslint --template typescript
 ```
 
-yarn create react-app react-app-eslint --template typescript
+## Packages & Plugin Install
 
-Checking the dependency then install
+Only five packages needed here no other packages is needed. It do very well, increase your productivity and increase your accuracy as well.
 
+Checking the dependency
+
+```sh
 npm ls eslint
-yarn add -D eslint
-Or
-npm i eslint --save-dev
+```
 
-npm ls eslint-plugin-typescript
-yarn add -D eslint-plugin-typescript
+I it is not available the we Install
+
+```sh
+yarn add -D eslint
+```
+
 Or
+
+```sh
+npm i eslint --save-dev
+```
+
+Checking the dependency
+
+```sh
+npm ls eslint-plugin-typescript
+```
+
+```sh
+yarn add -D eslint-plugin-typescript
+```
+
+Or
+
+```sh
 npm i eslint-plugin-typescript --save-dev
+```
 
 Create .eslintrc.json and paste
 "extends": ["react-app", "react-app/jest", "prettier"],
