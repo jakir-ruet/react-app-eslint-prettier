@@ -2,12 +2,27 @@
 [![Facebook-Page][facebook-shield]][facebook-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<h3>
-Visit Us
-<a href="http://www.sunitlimitrd.com">Sun IT Limited</a>
+<h3 align="center">
+   Visit Us <a href="http://www.sunitlimitrd.com">Sun IT Limited</a>
 </h3>
 
-## Getting Started React, React-TypeScript Eslint-Prettier Configuration
+### React, React-TypeScript Through Eslint-Prettier Configuration
+
+<h4>Create ReactJS/ReactJS-TypeScript App</h4>
+-[Create App](#Create-App)
+
+<h4>Only Five Packages Needed</h4>
+-[Eslint](#ddddd)
+-[Eslint Plugin React/TypeScript](#ddddd)
+-[Eslint Plugin React Hooks](#ddddd)
+-[Prettier](#ddddd)
+-[Eslint Config Prettier](#ddddd)
+
+## Create App
+
+```sh
+yarn create react-app react-app-eslint --template typescript
+```
 
 yarn create react-app react-app-eslint --template typescript
 
