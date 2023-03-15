@@ -8,13 +8,6 @@
 
 ### React, React-TypeScript Through Eslint-Prettier Configuration
 
-<h4>Only Five Packages Needed</h4>
--[Eslint](#ddddd)
--[Eslint Plugin React/TypeScript](#ddddd)
--[Eslint Plugin React Hooks](#ddddd)
--[Prettier](#ddddd)
--[Eslint Config Prettier](#ddddd)
-
 ## Create App
 
 ```sh
@@ -31,7 +24,7 @@ Checking the dependency
 npm ls eslint
 ```
 
-I it is not available the we Install
+If it is not available the we Install
 
 ```sh
 yarn add -D eslint
@@ -49,6 +42,8 @@ Checking the dependency
 npm ls eslint-plugin-typescript
 ```
 
+If it is not available the we Install
+
 ```sh
 yarn add -D eslint-plugin-typescript
 ```
@@ -59,35 +54,106 @@ Or
 npm i eslint-plugin-typescript --save-dev
 ```
 
-Create .eslintrc.json and paste
+Checking the dependency
+
+```sh
+npm ls eslint-plugin-react-hooks
+```
+
+If it is not available the we Install
+
+```sh
+yarn add -D eslint-plugin-react-hooks
+```
+
+Create
+
+```sh
+.eslintrc.json
+```
+
+file and paste the following code block that has been cut down from
+
+```sh
+package.json
+```
+
+file. And we must delete the **eslintConfig** block from **package.json**.
+
+```json
 "extends": ["react-app", "react-app/jest", "prettier"],
 "rules": {
 "semi": "warn"
 }
+```
 
-npm ls eslint-plugin-react-hooks
-yarn add -D eslint-plugin-react-hooks
+**If we need any package/rules then will do add into the above section**
 
+Checking the dependency
+
+```sh
 npm ls prettier
+```
+
+If it is not available the we Install
+
+```sh
 yarn add -D prettier
+```
 
+Checking the dependency
+
+```sh
 npm ls eslint-config-prettier
+```
+
+If it is not available the we Install
+
+```sh
 yarn add -D eslint-config-prettier
+```
 
-Create .prettierrc.json and paste
+Create
+
+```sh
+.prettierrc.json
+```
+
+and paste
+
+```json
 {
-"singleQuote": true
+  "singleQuote": true
 }
+```
 
-Create .prettierignore and paste
+Create
+
+```sh
+.prettierignore
+```
+
+and paste the following lines & we can add as per the requirement.
+
+```sh
 /build
 /node_modules
 /package-lock.json
 /yarn-error.log
 /yarn.lock
+```
 
+For applying the prettier we just use these command on terminal, then it work.
+
+```sh
 yarn prettier --write .
+```
+
+Then
+
+```sh
 npx prettier --check .
+```
 
 [youtube-shield]: https://img.shields.io/badge/-Youtube-black.svg?style=flat-square&logo=youtube&color=blue&logoColor=red
 [youtube-url]: https://www.youtube.com/watch?v=9i424dXt2Pk
