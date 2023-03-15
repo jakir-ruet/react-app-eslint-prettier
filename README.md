@@ -194,10 +194,10 @@ We just create **launch.json** into the **.vscode** and paste the following code
 
 ## Courtesy of Jakir,
 
-LinkedIn: [https://www.linkedin.com/in/jakir-ruet/]
-Facebook: [https://www.facebook.com/jakir.ruet]
-GitHub: [https://github.com/jakir-ruet]
-Skype: [https://web.skype.com/?openPstnPage=true]
+<a href="https://www.linkedin.com/in/jakir-ruet/">LinkedIn</a>
+<a href="https://www.facebook.com/jakir.ruet">Facebook</a>
+<a href="https://github.com/jakir-ruet">GitHub</a>
+<a href="https://web.skype.com/?openPstnPage=true">Skype</a>
 
 [youtube-shield]: https://img.shields.io/badge/-Youtube-black.svg?style=flat-square&logo=youtube&color=blue&logoColor=red
 [youtube-url]: https://www.youtube.com/watch?v=9i424dXt2Pk
