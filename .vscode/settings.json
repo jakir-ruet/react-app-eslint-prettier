@@ -2,6 +2,9 @@
   // Eslint-Prettier Section
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "[html]": {
+    "editor.formatOnSave": true
+  },
   "[javascript]": {
     "editor.formatOnSave": false
   },
@@ -19,9 +22,9 @@
     "typescriptreact"
   ],
   // Prettier Section
-  "prettier.useTabs": true,
-  "prettier.jsxSingleQuote": false,
   "prettier.tabWidth": 2,
+  "prettier.useTabs": true,
+  "prettier.singleQuote": true,
   "prettier.arrowParens": "avoid",
-  "prettier.singleQuote": true
+  "prettier.jsxSingleQuote": false
 }
