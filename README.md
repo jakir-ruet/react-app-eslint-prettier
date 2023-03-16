@@ -77,7 +77,7 @@ Create **.eslintrc.json** file in root directory and paste the following code bl
 }
 ```
 
-**If we need any package/rules then will do add into the above section**
+**If we need any more package/rules then will do add into the above section**
 
 Checking the dependency
 
@@ -198,6 +198,8 @@ We just create **launch.json** into the **.vscode** and paste the following code
 <a href="https://www.facebook.com/jakir.ruet">Facebook</a>
 <a href="https://github.com/jakir-ruet">GitHub</a>
 <a href="https://web.skype.com/?openPstnPage=true">Skype</a>
+
+## Have good day, stay with me.
 
 [youtube-shield]: https://img.shields.io/badge/-Youtube-black.svg?style=flat-square&logo=youtube&color=blue&logoColor=red
 [youtube-url]: https://www.youtube.com/watch?v=9i424dXt2Pk
